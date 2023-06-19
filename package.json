@@ -5,7 +5,9 @@
     "routes": "^2.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "start": "nodemon server.js --ignore public --ignore frontend",
+    "dev": "webpack -w"
   },
   "scripts": {
     "start": "nodemon server.js"
